@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+a,a:hover{
+    text-decoration: none;
+    color: #000;
+}
+h1,h2,h3,h4,h5,h6,p,a,img,ul,ol,li,span,form,input,.navbar,button,.navbar-brand,.btn{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/* Style the header with a grey background and some padding */
+.header{
+  background-image: url(../img/bg-head.jpg);
+  background-size: cover;
+  height: 100%;
+}
+.navbar{
+  padding: 37px 73px;
+  font-size: 16.67px;
+  font-weight: bold;
+  background-size: cover;
+}
+.navbar .nav-item .nav-link{
+  padding-left: 35px;
+}
+.row{
+  margin: 0px;
+  padding: 0px;
+}
+.head{
+
+}
+.head-left {
+  padding-top: 220px;
+   display: inline-block;
+}
+
+.head-left h3{
+  padding-left: 60px;
+  font-size: 39.57px;
+  font-weight: 800;
+}
+.butterfly2{
+  padding-left:20px;
+}
+.head-left h1{
+  padding: 0px 60px;
+  font-size: 74.39px;
+  font-weight:  800;
+}
+.head-left p{
+    padding-left: 60px;
+  font-size: 20.83px;
+  font-weight: 800;
+  padding-bottom: 35px;
+}
+.head-left h6{
+  padding-bottom: 200px;
+}
+.head-left a{
+    margin-left: 60px;
+ border: 1px solid #000;
+border-radius: 3px;
+padding: 20px 22px;
+transition: .3s;
+}
+.head-left a:hover{
+ background-color: black;
+ color: white;
+}
+.head-right{
+  float: right;
+  padding-top: -20px;
+  margin-top: -40px;
+}
+.shadow1{
+  padding-top: 820px;
+  margin-right: -680px;
+  height: 5%;
+  width: 50%;
+  float: right;
+}
+.head-bottom h3{
+  padding-top: 10px;
+   padding-left: 60px;
+  font-size: 41.67px;
+  font-weight: 800;
+  color: #d4d4d4;
+
+}
+.head-bottom h1{
+  padding-left: 60px;
+  font-size: 54.17px;
+  font-weight: 800;
+
+}
+/*--------------*/
+.sec2{
+  background-image: url(../img/bg2.jpg);
+  background-size: cover;
+}
+.sec2 .container{
+  color:#fff;
+  text-align: center;
+  padding: 95px 0px;
+}
+.sec2 .container h3{
+  font-size: 45.83px;
+  text-align: center;
+  padding-bottom: 32px;
+
+}
+/*--------------*/
+.sec3 .fly3{
+  padding: 110px 60px;
+}
+.sec3 .img-r{
+padding-top: 194px;
+}
+.sec3 .img-r h3{
+  padding-bottom: 40px;
+   font-size: 45.83px;
+     font-weight: 800;
+}
+.sec3 .img-r p{
+  padding-bottom: 40px;
+}
+.sec3 .img-r a{
+ border: 1px solid #000;
+border-radius: 3px;
+padding: 20px 22px;
+transition: .3s;
+}
+.sec3 .img-r a:hover{
+ background-color: black;
+ color: white;
+
+}
+/*--------------*/
+.footer{
+  margin: 60px;
+}
+.footer .menu{
+  padding-left: -200px;
+}
+.footer .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 15px;
+}
+.footer1 .img-fluid{
+  padding-right: 298px;
+}
+.footer1{
+border: 1px solid #000;
+background-color: #f3f3f3;
+}
+.footer2{
+  display: flex;
+}
+.footer2 .call p{
+  color: #fff;
+  background-color: #000;
+  font-weight: 800;
+  display: inline;
+  padding-left: -40px;
+}
+.footer p{
+  margin-left: 60px;
+}
+.footer2 .mid{
+  padding: 0px 200px 60px 380px;
+}
+.fl {
+  display: flex;
+}
+.fl a {
+  padding:5px;
+  margin-right:5px; 
+  border: 1px solid #000;
+  border-radius: 60%;
+  color: #fff;
+  background-color: #000;
+}
